@@ -1,6 +1,16 @@
 # Log4netLogging
 
+
+
 This is a shared library where you can use across several applications you have. 
+It contains the following projects
+
+1. Caller : Contains the log4net configuration and sample code to use the logging library
+2. Logging : The shared libarary which provdes a way to log asynchronously
+3. LoggingDb : Database scripts for creating tables and stored procedures to support logging to database
+
+
+
 It contains database project with "create table" script and stored procedure. 
 Performs logging asynchronously.
 You can find the stats for synchronous and asynchronous logging in "Benchmarks" file.
