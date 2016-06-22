@@ -7,7 +7,7 @@ namespace Logging
     /// </summary>
     public enum ViewLevel : int
     {
-        /// <summary>
+        /// <summary> 
         /// Logs are internal and shouldn't be exposed to others
         /// </summary>
         Internal = 0, // default level if level is not specified
